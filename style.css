@@ -245,213 +245,52 @@
 
     color: #00474B;
 }
-@media (max-width:1200px) {
+@media (min-width:1024px) {
     
 }
-@media (max-width:991px) {
-    
-}
-@media (max-width:768px) {
-    
-}
-
-@media (max-width:400px) {
+@media (max-width:768px ){
     .box{
-        width: 375px;
-        
-        background: #FFFFFF;
-        box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
-        border-radius: 25px;
-        margin-top: 100px;
+        width: 90%;
+        height: 789px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .left{
+        height: 532px;
+        width: 327px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .right{
         height: 257px;
         width: 327px;
         display: flex;
         align-items: center;
         flex-direction: column;
     
-    }
-    .person{
-        margin-top: 5px;
-    }
-    .person span{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height */
-        color: #5E7A7D;
-    }
-    .input-box{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 48px;
-        width: 311px;
-        border-radius: 5px;
-        background: #F3F9FA;
-        margin-top: 10px;
-    }
-    .input-box input[type=text]{
-        border: none;
-        background: none;
-        color: #00474B;
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: right;
-        
-        text-align: right;
-        outline: none;
-    }
-    .input-box i{
-        color: #9EBBBD;
-        margin-left: 20px;
-    }
-    .select{
-        margin-top: 5px;
     
     }
-    .select span{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        color: #5E7A7D;
-    
-    }
-    .click-box{
-        margin-top: 5px;
-    }
-    .click-box button{
-        height: 48px;
-        width: 146px;
-        border-radius: 5px;
-        background: #00474B;
-        border: 2px solid #00474B;
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        color: #FFFFFF;
-        margin: 5px;
+    .amount{
+        width: 400px;
+        margin-top: 20px;
     }
     .click-box input{
         height: 48px;
-        width: 118px;
+        width: 146.63px;
         border-radius: 5px;
         background: #F3F9FA;
         border: 2px solid #F3F9FA ;
         outline: none;
     }
-    .click-box input[type=text]{
-        background: none;
-        color: #00474B;
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: right;
-        margin-right: 10px;
-        text-align: right;
-        
-    }
-    .click-box input::placeholder{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        color: #547878;
-    }
-    .number1{
-        margin-top: -6px;
-    }
-    .number1 span{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        color: #5E7A7D;
-    }
-    .phone{
+    .click-box button{
         height: 48px;
-        width: 311px;
-        border-radius: 5px;
-        height: 48px;
-        background: #F3F9FA;
+        width: 147.81px;
         
-    
-    }
-    .phone input[type=text]{
-        border: none;
-        background: none;
-        color: #00474B;
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: right;
-        margin-right: 10px;
-        text-align: right;
-        outline: none;
-        display: flex;
-    }
-    .phone i{
-        color: #9EBBBD;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    .right{
-        height: 207px;
-        width: 327px;
-        background: #00474B;
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 100px;
-    
-    }
-    .amount{
-        width: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 10px;
-    }
-    .title{
-    
-    }
-    .title h4{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        color: #FFFFFF;
-    }
-    .title span{
-        font-family: 'Space Mono', monospace;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 19px;
-        color: #7F9D9F;
+        margin: 5px;
     }
     .number h1{
         font-family: 'Space Mono', monospace;
@@ -464,29 +303,95 @@
     
         color: #26C2AE;
     }
-    .total{
-        width: 400px;
+    .mybutton button{
+        height: 48px;
+        width: 281px;
+    }
+    .mybutton{
+        margin-top: -100px;
+    }
+}
+@media (max-width:767px) {
+    .box{
+        width: 90%;
+        height: 789px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        flex-direction: column;
     }
-    .mybutton button{
-        margin-top: 1px;
+    .left{
+        height: 532px;
+        width: 327px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    
     }
-    .mybutton button{
-        height: 38px;
-        width: 281px;
+    .right{
+        height: 247px;
+        width: 327px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3px;
+    
+    }
+    .amount{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .total{
+        width: 300px;
+        
+    }
+    .click-box input{
+        height: 48px;
+        width: 146.63px;
         border-radius: 5px;
-        background: #26C2AE;
+        background: #F3F9FA;
+        border: 2px solid #F3F9FA ;
+        outline: none;
+    }
+    .click-box button{
+        height: 48px;
+        width: 147.81px;
+        
+        margin: 5px;
+    }
+    .number h1{
         font-family: 'Space Mono', monospace;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 30px;
-        /* identical to box height */
-        border: none;
-        text-align: center;
+        font-size: 32px;
+        line-height: 71px;
+        text-align: right;
+        letter-spacing: -1px;
     
-        color: #00474B;
+        color: #26C2AE;
+    }
+    .mybutton button{
+        height: 48px;
+        width: 281px;
+    }
+    .mybutton{
+        margin-top: -100px;
+    }
+    .person{
+        margin-top: 10px;
+    }
+    .input-box{
+        height: 48px;
+        width: 311px;
+    }
+    .input-box input[type=text]{
+        width: 100px;
+    }
+    .phone{
+        height: 48px;
+        width: 311px;
+    }
+    .phone input[type=text]{
+        width: 100px;
     }
 }
