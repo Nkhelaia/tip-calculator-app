@@ -17,20 +17,20 @@
             <div class="left">
                 <div class="person">
                     <span>Bill</span>
-                    <div class="input-box">
+                    <div class="input-box" >
                         <i class="fa-solid fa-dollar-sign"></i>
-                        <input type="text">
+                        <input type="text" id="one" onchange="Calculate()">
                     </div>
                 </div>
                 <div class="select">
                     <span>Select Tip %</span>
                     <div class="click-box">
-                        <button>5%</button>
-                        <button>10%</button>
-                        <button>15%</button>
-                        <button>25%</button>
-                        <button>50%</button>
-                        <input type="text" placeholder="costum">
+                        <input type="submit" value="5%" id="btp" onchange="Calculate()">
+                        <input type="submit" value="10%" id="btp" onchange="Calculate()">
+                        <input type="submit" value="15%" id="btp" onchange="Calculate()">
+                        <input type="submit" value="25%" id="btp" onchange="Calculate()">
+                        <input type="submit" value="50%" id="btp" onchange="Calculate()">
+                        <input type="text" placeholder="costum" id="two" onchange="Calculate()">
                     </div>
                 </div>
                 
@@ -39,7 +39,7 @@
                     <span>Number of People</span>
                     <div class="phone">
                         <i class="fa-solid fa-user"></i>
-                        <input type="text">
+                        <input type="text" id="three">
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                         <span>/ person</span>
                     </div>
                     <div class="number">
-                        <h1>$4.27</h1>
+                        <h1 id="resultone">$4.27</h1>
                     </div>
                 </div>
                 <div class="total">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="mybutton">
-                    <button>RESET</button>
+                    <button id="btn">RESET</button>
                 </div>
             </div>
         </div>

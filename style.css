@@ -89,12 +89,15 @@
 .click-box{
     margin-top: 10px;
 }
-.click-box button{
+.click-box #btp {
     height: 48px;
     width: 117px;
     border-radius: 5px;
     background: #00474B;
     border: 2px solid #00474B;
+    
+    margin: 5px;
+    cursor: pointer;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 700;
@@ -102,17 +105,18 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    margin: 5px;
 }
-.click-box input{
+.click-box #two{
     height: 48px;
     width: 118px;
     border-radius: 5px;
     background: #F3F9FA;
     border: 2px solid #F3F9FA ;
     outline: none;
+    
 }
-.click-box input[type=text]{
+
+.click-box #two input[type=text]{
     background: none;
     color: #00474B;
     font-family: 'Space Mono', monospace;
@@ -151,7 +155,9 @@
     border-radius: 5px;
     height: 48px;
     background: #F3F9FA;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .phone input[type=text]{
@@ -165,9 +171,9 @@
     line-height: 36px;
     text-align: right;
     margin-right: 10px;
-    text-align: right;
     outline: none;
-}
+   
+}    
 .phone i{
     color: #9EBBBD;
     margin-left: 20px;
@@ -226,8 +232,9 @@
     align-items: center;
     justify-content: space-around;
 }
-.mybutton button{
+.mybutton {
     margin-top: 100px;
+    cursor: pointer;
 }
 .mybutton button{
     height: 48px;
@@ -242,7 +249,7 @@
     /* identical to box height */
     border: none;
     text-align: center;
-
+    cursor: pointer;
     color: #00474B;
 }
 @media (min-width:1024px) {
@@ -285,6 +292,7 @@
         background: #F3F9FA;
         border: 2px solid #F3F9FA ;
         outline: none;
+        
     }
     .click-box button{
         height: 48px;
@@ -306,6 +314,7 @@
     .mybutton button{
         height: 48px;
         width: 281px;
+        cursor: pointer;
     }
     .mybutton{
         margin-top: -100px;
